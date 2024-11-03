@@ -22,14 +22,14 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'ckeditor',      '~> 4.1.2'
-  s.add_dependency 'spree_backend', '~> 3.1.0.beta'
+  s.add_dependency 'spree_backend', '>= 3.1.0'
   s.add_dependency 'tinymce-rails', '~> 4.2.5'
 
   s.add_development_dependency 'i18n-spec', '>= 0.5.0'
   s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'pry-rails'
   s.add_development_dependency 'capybara', '~> 2.4.4'
-  s.add_development_dependency 'coffee-rails', '~> 4.0.0'
+  s.add_development_dependency 'coffee-rails', '~> 4.2.0'
   s.add_development_dependency 'database_cleaner', '~> 1.3.0'
   s.add_development_dependency 'factory_girl', '~> 4.4'
   s.add_development_dependency 'ffaker'
